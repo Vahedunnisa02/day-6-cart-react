@@ -1,0 +1,42 @@
+.para{
+    border-bottom: 2px solid gray;
+    /* width: 55%; */
+    width: 100%;
+}
+
+.box{
+    width: 200px;
+    height: 40px;
+    background-color: blueviolet;
+    text-align: center;
+    /* margin: 1rem auto; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.box1{
+    margin: 2rem auto;
+    background-color: rgb(181, 132, 226);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: rgb(83, 17, 144);
+    font-size: 1rem;
+}
+
+.center{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.6rem;
+    align-items: center;
+    font-size: 1.2rem;
+}
